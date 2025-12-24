@@ -250,6 +250,28 @@ td button:last-child:hover {
   background: #0056b3;
 }
 
+.equipment-table {
+  width: 100%;
+  table-layout: fixed; /* 🔥 PREVENT TABLE RESIZE */
+  border-collapse: collapse;
+}
+
+.equipment-table th,
+.equipment-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* ✅ Name column styling */
+.name-column {
+  max-width: 220px;      /* adjust if needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
 /* Responsive Table Cards */
 @media (max-width: 768px) {
   .controls {
