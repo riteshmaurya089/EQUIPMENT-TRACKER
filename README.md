@@ -55,8 +55,8 @@ PUT	/api/equipment/:id	Update equipment
 DELETE	/api/equipment/:id	Delete equipment
 🖥️ How to Run Locally
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/equipment-tracker.git
-cd equipment-tracker
+git clone https://github.com/riteshmaurya089/EQUIPMENT-TRACKER
+cd EQUIPMENT-TRACKER
 
 2️⃣ Backend Setup
 cd backend
@@ -104,25 +104,6 @@ API calls must point to backend URL, not frontend URL
 
 .env file is ignored using .gitignore
 
-🧠 Assumptions
-
-Authentication is not required
-
-Single user usage
-
-Focus is on functionality and clean code, not advanced UI
-
-🔮 Improvements (If More Time Was Available)
-
-Authentication (login / roles)
-
-Better UI using Tailwind or Material UI
-
-Server-side pagination
-
-Unit tests
-
-Advanced filtering (status/type)
 
 👨‍💻 Author
 
